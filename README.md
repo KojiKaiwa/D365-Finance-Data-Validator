@@ -50,6 +50,8 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 - ・Added Incident Analysis tools: Transaction Spike Detection and Error Pattern Analysis
 - ・Improved log parsing logic to handle keyword variations (e.g., 'timeout' vs 'timed out')
 - ・Added Pie Chart visualization for Error Category Distribution
+- ・Added Security Monitoring (Brute Force Detection) and Performance Bottleneck Analysis tools
+- ・Implemented Performance Stability Analysis using Standard Deviation (std) to detect unstable system processes
 
 開発の背景 / Background
 前回の面接において、Dynamics 365 の製品知識（MB-310保持）に加え、実装現場での技術的理解（Python/C#等）の重要性を再認識いたしました。
