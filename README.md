@@ -50,6 +50,15 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 - ・Added Incident Analysis tools: Transaction Spike Detection and Error Pattern Analysis
 - ・Improved log parsing logic to handle keyword variations (e.g., 'timeout' vs 'timed out')
 - ・Added Pie Chart visualization for Error Category Distribution
+- ・Implemented Cross-Validation logic to detect transactions by 'Ghost Users' (non-existent employees)
+- ・Developed a Weighted Risk Intelligence model combining Statistical, Business, and Organizational audit flags
+- ・Implemented Fraud Detection tool using Benford's Law for auditing financial transaction data
+- ・Developed a Round Number Detection tool for identifying suspicious financial transactions
+- ・Developed an Integrated Fraud Detection Dashboard by combining Benford's Law and Round Number Analysis
+- ・Visualized Integrated Risk Scores using Heatmaps to prioritize audit investigations
+- ・Implemented Multi-dimensional Pivot Analysis and Automated Error Reporting for ERP transaction logs
+- ・Visualized Departmental Spending Patterns using Stacked Bar Charts from Pivot Data
+- ・Developed a Device Compliance Analysis Tool for Intune MDM (Mobile Device Management) scenarios
 
 開発の背景 / Background
 前回の面接において、Dynamics 365 の製品知識（MB-310保持）に加え、実装現場での技術的理解（Python/C#等）の重要性を再認識いたしました。
